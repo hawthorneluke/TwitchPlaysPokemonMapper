@@ -470,7 +470,7 @@ namespace twitchPlaysPokemon
             else
             {
                 outputLines++;
-                if (outputLines > outputLinesThresh)
+                if (outputLines % outputLinesThresh == 0)
                 {
                     richTextBox1.Text = "";
                 }
