@@ -1,0 +1,48 @@
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 1000px;
+  height: 500px;
+  background: url('mapcrop.png') 0 0 no-repeat;
+}
+
+.ingameTime {
+  margin-top: 10px;
+  height: 50px;
+  background: #121212;
+
+  color: #fefefe;
+  line-height: 50px;
+  font-size: 30px;
+  font-family: monospace;
+  font-weight: bold;
+  text-align: center;
+}
+
+.player {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  width: 20px;
+  height: 20px;
+  margin: -10px 0 0 -10px;
+
+  background: url('red.png') 0 0 no-repeat;
+  text-indent: -9999px;
+}
+
+.time {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  
+  width: 195px;
+  height: 30px;
+
+  line-height: 30px;
+  color: #222;
+
+  background: #fff;
+  text-align: right;
+}
